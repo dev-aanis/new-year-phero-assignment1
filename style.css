@@ -252,7 +252,7 @@
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     width: 1000px;
-    height: 540px;
+    height: 550px;
     margin: 100px auto;
     text-align: center;
 }
@@ -274,9 +274,17 @@
     margin-bottom: 15px;
 }
 .newsletter-text .news-info{
-    max-width: 800px;
-    margin-left: 100px;
-    margin-bottom: 60px;
+    max-width: 750px;
+    position: relative;
+    align-items: center;
+    margin: 0 auto 60px auto;
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 30px;
+
 }
 .subs-input{
     width: 300px;
